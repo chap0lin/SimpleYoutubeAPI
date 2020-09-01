@@ -17,13 +17,16 @@
             align-items: center;
             padding-top: 4.8rem;
             padding-bottom: 4.8rem;
-            background: rgb(214,36,34)
+            background: rgb(214,36,34);
+            width: 100vw;
         }
         h1{
+            text-align: center;
             color: #eee;
             font-size: 4.8rem
         }
         h2{
+            text-align: center;
             color: #eee;
             font-size: 3.2rem;
         }
@@ -33,8 +36,8 @@
         }
         .container{
             margin-top: 4.8rem;
-            width: 60%;
-            height: 30vh;
+            width: 60vw;
+            height: 260px;
             background: #eee;
             box-shadow: 1.2rem 1.2rem #e0e0e0;
             display: flex;
@@ -48,13 +51,13 @@
             font-size: 2.4rem;
         }
         form{
-            width: 100%;
             display: flex;
             align-items: stretch;
         }
         .fieldText{
             flex: 1;
-            font-size: 3.2rem;
+            flex-basis: 400px;
+            
         }
         p:first-child{
             font-size: 1.2rem;
@@ -71,9 +74,9 @@
     </header>
     <main>
         <div class="container">
-            <p>Só fazer uma requisição tipo GET para https://simpleyoutubeapi.herokuapp.com/?search=[YOUR SEARCH]</p>
-            <p>Basta fazer uma requisição com a busca no campo search: </p>
-            <form action="">
+            <p>Just send a GET to https://simpleyoutubeapi.herokuapp.com/?search=[YOUR SEARCH]</p>
+            <p>Example with the search field: </p>
+            <form action="/videos">
                 <input class="fieldText" type="text" name="search" placeholder="search">
                 <input type="submit" value="SEND">
             </form>
