@@ -59,10 +59,10 @@
             flex-basis: 400px;
             
         }
-        p:first-child{
+        p{
             font-size: 1.2rem;
         }
-        p{
+        .container .example{
             font-size: 3.2rem;
         }
     </style>
@@ -74,8 +74,11 @@
     </header>
     <main>
         <div class="container">
-            <p>Just send a GET to https://simpleyoutubeapi.herokuapp.com/?search=[YOUR SEARCH]</p>
-            <p>Example with the search field: </p>
+            <p>Just send a GET to https://simpleyoutubeapi.herokuapp.com/?search=[YOUR SEARCH]&nresults=[NUMBER_OF_RESULTS]</p>
+            <p>Params:</p>
+            <p>search*: query to search</p>
+            <p>nresults: number of results (optional)</p>
+            <p class="example">Example with the search field: </p>
             <form action="/videos">
                 <input class="fieldText" type="text" name="search" placeholder="search">
                 <input type="submit" value="SEND">
