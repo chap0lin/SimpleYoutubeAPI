@@ -1,4 +1,4 @@
-[live-demo-url]: https://biodiversidade.netlify.app/
+[live-demo-url]: https://simpleyoutubeapi.herokuapp.com/
 
 <div align="center">
     <img src="https://img.shields.io/badge/node-v12.9.1-%238bc500" alt="Node" />
@@ -17,7 +17,7 @@ Here there's no authentication required!
 
 ## :rocket: Como usar
 Just send a GET to https://simpleyoutubeapi.herokuapp.com/?search=[YOUR SEARCH]&nresults=[NUMBER OF RESULTS].
-Or access: LINK [live-demo-url]
+Or access: [LINK][live-demo-url]
 
 
 
